@@ -100,17 +100,29 @@ RNPDNO_V4$FLAG <- ifelse(RNPDNO_V4$EDAD == -99 | RNPDNO_V4$SEXO == "Desconocido"
 #---- DATA FINAL ---------------------------------------------------------------
 
 # Nos quedamos con las columnas finales
-RNPDNO_V5 <- RNPDNO_V4 %>% 
+RNPDNO_V5 <- RNPDNO_V4 %>%              # [1] 115513     12
   select(c("IDX_REPORTE", "FECHA_REPORTE_C", "SEXO", "ESTADO_CIVIL", 
            "NIVEL_EDUCATIVO", "ESTADO", "EDAD_C", "EDAD_G", "ESTADO_CIVIL_G",
            "NIVEL_EDUCATIVO_G", "ANIO_REPORTE", "FLAG" ))
 
 
+
+# Filtros para conformar una data sin faltantes y sin outliers en EDAD_C
+RNPDNO_V5 <- RNPDNO_V5 %>%
+  filter((EDAD_C <= 100 & EDAD_C >= 0) | EDAD_C == -99) # 115492, 11
+
+RNPDNO_V5_Informada <- RNPDNO_V5 %>% 
+  filter(FLAG == 0)
+
+
+
 # Guardar data final
-file_out <- "C:/Users/semir/Documents/CIMAT/Estadistica/Proyecto/output/"
+file_out <- "C:/Users/semir/Documents/CIMAT/Estadistica/Proyecto/data/"
 ruta_archivo <- paste0(file_out,  "RNPDNO_V5.csv")
 write.csv(RNPDNO_V5, file = ruta_archivo, row.names = FALSE)
 
+ruta_archivo2 <- paste0(file_out,  "RNPDNO_V5_Informada.csv")
+write.csv(RNPDNO_V5_Informada, file = ruta_archivo2, row.names = FALSE)
 
 
 
