@@ -97,8 +97,7 @@ RNPDNO_V4$FLAG <- ifelse(RNPDNO_V4$EDAD == -99 | RNPDNO_V4$SEXO == "Desconocido"
                            RNPDNO_V4$NIVEL_EDUCATIVO == "Desconocido" , 1, 0)
 
 
-#---- DATA FINAL ---------------------------------------------------------------
-
+#---- DATOS LIMPIOS ------------------------------------------------------------
 # Nos quedamos con las columnas finales
 RNPDNO_V5 <- RNPDNO_V4 %>%              # [1] 115513     12
   select(c("IDX_REPORTE", "FECHA_REPORTE_C", "SEXO", "ESTADO_CIVIL", 
@@ -106,21 +105,59 @@ RNPDNO_V5 <- RNPDNO_V4 %>%              # [1] 115513     12
            "NIVEL_EDUCATIVO_G", "ANIO_REPORTE", "FLAG" ))
 
 
-# Filtros para conformar una data sin faltantes y sin outliers en EDAD_C
+# Filtros para conformar una data sin outliers en EDAD_C
 RNPDNO_V5 <- RNPDNO_V5 %>%
   filter((EDAD_C <= 100 & EDAD_C >= 0) | EDAD_C == -99) # 115492, 11
 
-RNPDNO_V5_Informada <- RNPDNO_V5 %>% 
-  filter(FLAG == 0)
 
+#---- AGREGAMOS INFORMACION DE OTRA BASE -------------------------------
+
+# Cargar el conjunto de datos
+file_in0 <- "C:/Users/semir/Documents/CIMAT/Estadistica/Proyecto/data/tot_reg_merged.csv"
+tot_reg_merged <- read.csv(file_in0, header = TRUE, fileEncoding = "latin1")
+names(tot_reg_merged)
+
+n_distinct(tot_reg_merged$IDX_REPORTE) 
+# Eliminamos duplicados
+tot_reg_merged <- tot_reg_merged[order(tot_reg_merged$fecha_desap, 
+                                       tot_reg_merged$estatus_busqueda, 
+                                       decreasing = TRUE), ]
+
+tot_reg_merged_unique <- tot_reg_merged[!duplicated(tot_reg_merged$IDX_REPORTE), ]
+
+# Union datos
+RNPDNO_V6 <- left_join(RNPDNO_V5, 
+                         tot_reg_merged_unique[c("IDX_REPORTE", 
+                                                 "fecha_desap", 
+                                                 "estatus_busqueda")], 
+                         by = "IDX_REPORTE") %>%
+  select(names(RNPDNO_V5), fecha_desap, estatus_busqueda)
+
+table(RNPDNO_V6$estatus_busqueda)
+RNPDNO_V6 <- RNPDNO_V6 %>%
+  mutate(
+    estatus_busqueda = case_when(
+      grepl("Con indicios", estatus_busqueda) ~ "Con indicios",
+      grepl("Denuncia confirmada", estatus_busqueda) ~ "Denuncia confirmada",
+      grepl("Se busca reportante", estatus_busqueda) ~ "Se busca reportante",
+      grepl("Se requieren datos de identidad", estatus_busqueda) ~ "Se requieren datos",
+      TRUE ~ "Otro"
+    )
+  )
+
+RNPDNO_V6 <- RNPDNO_V6 %>%
+  rename(ESTADO_BUSQUEDA = estatus_busqueda)
+
+RNPDNO_V6_Informada <- RNPDNO_V6 %>% 
+  filter(FLAG == 0)
 
 # Guardar data final
 file_out <- "C:/Users/semir/Documents/CIMAT/Estadistica/Proyecto/data/"
 ruta_archivo <- paste0(file_out,  "RNPDNO_V5.csv")
-write.csv(RNPDNO_V5, file = ruta_archivo, row.names = FALSE)
+write.csv(RNPDNO_V6, file = ruta_archivo, row.names = FALSE)
 
 ruta_archivo2 <- paste0(file_out,  "RNPDNO_V5_Informada.csv")
-write.csv(RNPDNO_V5_Informada, file = ruta_archivo2, row.names = FALSE)
+write.csv(RNPDNO_V6_Informada, file = ruta_archivo2, row.names = FALSE)
 
 
 
