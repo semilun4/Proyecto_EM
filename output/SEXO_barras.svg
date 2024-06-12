@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='458.40pt' height='278.40pt' viewBox='0 0 458.40 278.40'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHw0NTguNDB8MC4wMHwyNzguNDA='>
+    <rect x='0.00' y='0.00' width='458.40' height='278.40' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw0NTguNDB8MC4wMHwyNzguNDA=)'>
+</g>
+<defs>
+  <clipPath id='cpNDcuODN8MzgzLjc2fDIzLjE4fDIwNC4xOA=='>
+    <rect x='47.83' y='23.18' width='335.94' height='181.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDcuODN8MzgzLjc2fDIzLjE4fDIwNC4xOA==)'>
+<polyline points='47.83,169.04 383.76,169.04 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='47.83,115.21 383.76,115.21 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='47.83,61.37 383.76,61.37 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='47.83,195.95 383.76,195.95 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='47.83,142.12 383.76,142.12 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='47.83,88.29 383.76,88.29 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='47.83,34.46 383.76,34.46 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='110.81,204.18 110.81,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='215.79,204.18 215.79,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='320.78,204.18 320.78,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<rect x='63.57' y='100.85' width='94.48' height='95.10' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #9E86B7;' />
+<rect x='168.55' y='31.40' width='94.48' height='164.55' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #3F1550;' />
+<rect x='273.53' y='144.69' width='94.48' height='51.26' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #DDD5FF;' />
+</g>
+<g clip-path='url(#cpMC4wMHw0NTguNDB8MC4wMHwyNzguNDA=)'>
+<text x='42.89' y='199.10' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='4.90px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='42.89' y='145.27' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>20000</text>
+<text x='42.89' y='91.44' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>40000</text>
+<text x='42.89' y='37.61' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>60000</text>
+<text transform='translate(113.96,209.11) rotate(-90)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='50.88px' lengthAdjust='spacingAndGlyphs'>Desconocido</text>
+<text transform='translate(218.94,209.11) rotate(-90)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='31.30px' lengthAdjust='spacingAndGlyphs'>Hombre</text>
+<text transform='translate(323.93,209.11) rotate(-90)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.00px' lengthAdjust='spacingAndGlyphs'>Mujer</text>
+<text transform='translate(13.36,113.68) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='54.42px' lengthAdjust='spacingAndGlyphs'>Frecuencia</text>
+<image width='17.28' height='86.40' x='400.20' y='78.32' preserveAspectRatio='none' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAEsCAYAAAACUNnVAAAAkElEQVQ4jbWSwQ3AMAgDbXboPF2h+y/TfqIoaU3qKMqPB5wNBudx3UESAQClIhCEqF59PxNEkEAAoiIRhKiavmVXhoZytU8j2UOfZFp8RrIlj0Lxt1wUKrwt+K7Pxr+g6ZeIFfTbehmlGlbwnt0xKrdrogyT6th2oPbBvgBtTUTWAxxDFeB8U7VrLGgn09l4AEV1Bgcm7zpVAAAAAElFTkSuQmCC'/>
+<text x='422.96' y='165.77' style='font-size: 8.80px; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>20000</text>
+<text x='422.96' y='145.31' style='font-size: 8.80px; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>30000</text>
+<text x='422.96' y='124.85' style='font-size: 8.80px; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>40000</text>
+<text x='422.96' y='104.39' style='font-size: 8.80px; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>50000</text>
+<text x='422.96' y='83.93' style='font-size: 8.80px; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>60000</text>
+<text x='400.20' y='71.68' style='font-size: 11.00px; font-family: "Arial";' textLength='22.62px' lengthAdjust='spacingAndGlyphs'>Freq</text>
+<line x1='400.20' y1='162.62' x2='403.66' y2='162.62' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='400.20' y1='142.16' x2='403.66' y2='142.16' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='400.20' y1='121.70' x2='403.66' y2='121.70' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='400.20' y1='101.24' x2='403.66' y2='101.24' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='400.20' y1='80.78' x2='403.66' y2='80.78' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='414.03' y1='162.62' x2='417.48' y2='162.62' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='414.03' y1='142.16' x2='417.48' y2='142.16' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='414.03' y1='121.70' x2='417.48' y2='121.70' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='414.03' y1='101.24' x2='417.48' y2='101.24' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<line x1='414.03' y1='80.78' x2='417.48' y2='80.78' style='stroke-width: 0.38; stroke: #FFFFFF; stroke-linecap: butt;' />
+<text x='47.83' y='14.93' style='font-size: 13.20px; font-family: "Arial";' textLength='127.57px' lengthAdjust='spacingAndGlyphs'>Distribución de SEXO</text>
+</g>
+</svg>
