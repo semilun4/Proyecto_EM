@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='458.40pt' height='292.80pt' viewBox='0 0 458.40 292.80'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHw0NTguNDB8MC4wMHwyOTIuODA='>
+    <rect x='0.00' y='0.00' width='458.40' height='292.80' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw0NTguNDB8MC4wMHwyOTIuODA=)'>
+</g>
+<defs>
+  <clipPath id='cpNTIuNzJ8MzU3LjM3fDIzLjE4fDI2NC41Ng=='>
+    <rect x='52.72' y='23.18' width='304.65' height='241.38' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNTIuNzJ8MzU3LjM3fDIzLjE4fDI2NC41Ng==)'>
+<polyline points='52.72,226.43 357.37,226.43 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='52.72,172.12 357.37,172.12 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='52.72,117.82 357.37,117.82 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='52.72,63.51 357.37,63.51 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='52.72,253.59 357.37,253.59 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='52.72,199.28 357.37,199.28 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='52.72,144.97 357.37,144.97 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='52.72,90.66 357.37,90.66 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='52.72,36.35 357.37,36.35 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='135.81,264.56 135.81,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='274.28,264.56 274.28,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<rect x='73.49' y='222.14' width='124.63' height='0.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #3F1550;' />
+<rect x='211.97' y='34.15' width='124.63' height='76.75' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #3F1550;' />
+<rect x='73.49' y='222.14' width='124.63' height='24.42' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #DDD5FF;' />
+<rect x='211.97' y='110.90' width='124.63' height='108.35' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #DDD5FF;' />
+<rect x='73.49' y='246.55' width='124.63' height='7.03' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #A84C70;' />
+<rect x='211.97' y='219.25' width='124.63' height='34.34' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #A84C70;' />
+</g>
+<g clip-path='url(#cpMC4wMHw0NTguNDB8MC4wMHwyOTIuODA=)'>
+<text x='47.79' y='256.74' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='4.90px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='47.79' y='202.43' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>25000</text>
+<text x='47.79' y='148.12' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>50000</text>
+<text x='47.79' y='93.81' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='24.48px' lengthAdjust='spacingAndGlyphs'>75000</text>
+<text x='47.79' y='39.50' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='29.38px' lengthAdjust='spacingAndGlyphs'>100000</text>
+<text transform='translate(138.96,269.49) rotate(-90)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='4.90px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text transform='translate(277.43,269.49) rotate(-90)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='4.90px' lengthAdjust='spacingAndGlyphs'>1</text>
+<text transform='translate(13.36,143.87) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='54.42px' lengthAdjust='spacingAndGlyphs'>Frecuencia</text>
+<text x='373.81' y='119.15' style='font-size: 11.00px; font-family: "Arial";' textLength='25.08px' lengthAdjust='spacingAndGlyphs'>Sexo</text>
+<rect x='374.52' y='126.49' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #3F1550;' />
+<rect x='374.52' y='143.77' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #DDD5FF;' />
+<rect x='374.52' y='161.05' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #A84C70;' />
+<text x='396.57' y='137.58' style='font-size: 8.80px; font-family: "Arial";' textLength='50.88px' lengthAdjust='spacingAndGlyphs'>Desconocido</text>
+<text x='396.57' y='154.86' style='font-size: 8.80px; font-family: "Arial";' textLength='31.30px' lengthAdjust='spacingAndGlyphs'>Hombre</text>
+<text x='396.57' y='172.14' style='font-size: 8.80px; font-family: "Arial";' textLength='22.00px' lengthAdjust='spacingAndGlyphs'>Mujer</text>
+<text x='52.72' y='14.93' style='font-size: 13.20px; font-family: "Arial";' textLength='181.83px' lengthAdjust='spacingAndGlyphs'>Distribución de FLAG por Sexo</text>
+</g>
+</svg>
